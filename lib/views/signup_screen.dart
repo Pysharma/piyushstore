@@ -19,8 +19,9 @@ class SignUpScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Lottie.network('https://lottie.host/c9eb6833-bf0a-481e-87ea-f0980e2abff1/uB3ogNaUEd.json',),
-              SizedBox(height: 16),
+              SizedBox(height: 46),
+              Lottie.asset('assets/signup.json'),
+              SizedBox(height: 40),
               CupertinoTextField(
                 controller: emailController,
                 placeholder: 'Email',
